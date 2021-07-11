@@ -34,3 +34,27 @@ h6 {
 #right {
   flex: 1;
 }
+
+/* sign in */
+
+#signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+#signin form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+#signin .logo {
+  margin-bottom: 8vh;
+}
+
+#signin .logo img {
+  width: 300px;
+}
